@@ -19,7 +19,9 @@ export const MainContent: React.FC = () => {
   const itemsPerSlide = 4
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [currentProduct, setCurrentProduct] = useState<Product | null>(null)
-
+  const [activeButton, setActiveButton] = useState('celular');
+ 
+  
   const nextSlide = () => {
     const next = currentSlide + 1
     if (next <= products.length - itemsPerSlide) {
@@ -44,6 +46,10 @@ export const MainContent: React.FC = () => {
   const closePopup = () => {
     setIsModalOpen(false)
   }
+
+  const handleButtonClick = (buttonName: string) => {
+    setActiveButton(buttonName);
+  };
 
   return (
     <main className="all-content">
@@ -93,13 +99,43 @@ export const MainContent: React.FC = () => {
       </div>
       <TitleRelated />
       <div className="products-title">
-        <button className="products-options-pink">CELULAR</button>
-        <button className="products-options">ACESSÓRIOS</button>
-        <button className="products-options">TABLETS</button>
-        <button className="products-options">NOTEBOOKS</button>
-        <button className="products-options">TVS</button>
-        <button className="products-options">VER TODOS</button>
-      </div>
+      <button
+        className={activeButton === 'celular' ? 'products-options-pink' : 'products-options'}
+        onClick={() => handleButtonClick('celular')}
+      >
+        CELULAR
+      </button>
+      <button
+        className={activeButton === 'accessories' ? 'products-options-pink' : 'products-options'}
+        onClick={() => handleButtonClick('accessories')}
+      >
+        ACESSÓRIOS
+      </button>
+      <button
+        className={activeButton === 'tablets' ? 'products-options-pink' : 'products-options'}
+        onClick={() => handleButtonClick('tablets')}
+      >
+        TABLETS
+      </button>
+      <button
+        className={activeButton === 'notebooks' ? 'products-options-pink' : 'products-options'}
+        onClick={() => handleButtonClick('notebooks')}
+      >
+        NOTEBOOKS
+      </button>
+      <button
+        className={activeButton === 'tvs' ? 'products-options-pink' : 'products-options'}
+        onClick={() => handleButtonClick('tvs')}
+      >
+        TVS
+      </button>
+      <button
+        className={activeButton === 'all' ? 'products-options-pink' : 'products-options'}
+        onClick={() => handleButtonClick('all')}
+      >
+        VER TODOS
+      </button>
+    </div>
 
       <div className="all-product-content">
         <button className="previous-btn" onClick={prevSlide}>
@@ -134,6 +170,7 @@ export const MainContent: React.FC = () => {
                       currency: 'BRL',
                     })}
                   </p>
+                  <p className="product-delivery"> Frete grátis </p>
 
                   <p className="product-parcel">
                     ou 2x de{' '}

@@ -1,0 +1,158 @@
+.all-related-products {
+  box-sizing: border-box;
+  width: 100%;
+  height: 503px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+
+.RelatedProducts1,
+.RelatedProducts2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 203px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.RelatedProducts1 {
+  margin-right: 10%;
+}
+
+.related-text1,
+.related-text2 {
+  position: absolute;
+  top: 10px;
+  right: 180px; 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-img {
+  width: 574px;
+  height: 280px; 
+  flex-shrink: 0;
+  border-radius: 18px;
+  filter: brightness(0.6);
+}
+
+
+.part-title {
+  color: var(--WHITE, #fff);
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 206px;
+  height: 60px;
+  margin-left: 60px;
+}
+
+.part-desc {
+  height: 181px;
+  height: 48px;
+  color: var(--WHITE, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.part-title2 {
+  color: var(--WHITE, #fff);
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 206px;
+  height: 60px;
+  margin-left: 60px;
+}
+
+.part-desc2 {
+  height: 181px;
+  height: 48px;
+  color: var(--WHITE, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-all {
+  color: var(--Preto, #3f3f40);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  border: none;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.all-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.brand {
+  color: var(--rosa-primario, #f71963);
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1250px;
+  height: 234px;
+}
+
+.brand-icons {
+  border: 1px rgb(218, 212, 212) solid;
+  width: 190px;
+  height: 190px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.titles {
+  width: 100%;
+}

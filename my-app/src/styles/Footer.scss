@@ -1,0 +1,134 @@
+.all-footer {
+    width: 100%;
+    height: 395px;
+    flex-shrink: 0;
+    background: #2A2A2A;
+  }
+  
+  .footer1 {
+    height: 325px;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-start;
+  }
+  
+  .f-title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .f-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .about-us-icons {
+    margin-right: 15px;
+  }
+  
+  .payment {
+    margin-bottom: 15px;
+  }
+  
+  .payment-icons {
+    width: 195px;
+    height: 148.545px;
+    flex-shrink: 0;
+    margin-top: 15px;
+  }
+  
+  .promotions {
+    width: 380px;
+    height: 260px;
+    flex-shrink: 0;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .promotion-text {
+    color: var(--Preto, #3F3F40);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    height: 60px;
+  }
+  
+  .promotion-text-desc {
+    color: var(--Preto, #3F3F40);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    margin-left: 25px;
+    height: 60px;
+  }
+  
+  .promotion-input {
+    border-radius: 5px;
+    height: 35px;
+    margin-right: 15px;
+  }
+  
+  .promotion-btn {
+    height: 35px;
+    width: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 4px;
+    background: var(--rosa-primario, #F71963);
+  }
+  
+  .footer2 {
+    height: 70px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px rgb(255, 255, 255) solid;
+  }
+  
+  .f-text2 {
+    display: flex;
+    justify-content: center;
+    width: 698px;
+    margin-top: 22px;
+  }
+  
+  .double {
+    width: 226px;
+    height: 32px;
+    margin-top: 17px;
+  }

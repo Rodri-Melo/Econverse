@@ -52,10 +52,10 @@ const Header: React.FC = () => {
             <img className="search-icon" src={search} alt="search-icon" />
           </div>
         </div>
-        <img src={group} alt="group" />
-        <img src={heart} alt="heart" />
-        <img src={user} alt="userCircle" />
-        <img src={cart} alt="ShoppingCart" />
+        <img className="icon" src={group} alt="group" />
+        <img className="icon" src={heart} alt="heart" />
+        <img className="icon" src={user} alt="userCircle" />
+        <img className="icon" src={cart} alt="ShoppingCart" />
       </div>
 
       <div className="rectangle3">
