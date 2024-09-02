@@ -1,0 +1,18 @@
+.btn-check {
+    width: 131px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--rosa-primario, #F71963);
+    border: var(--rosa-primario);
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
