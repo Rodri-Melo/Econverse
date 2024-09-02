@@ -1,6 +1,8 @@
 # Seja bem vindo ao repositório do Desafio Front-end de Desenvolvedor da Econverse ⚡
 
-Este projeto foi desenvolvido como parte do teste para a posição de Desenvolvedor Front-End na Econverse. O objetivo foi criar uma aplicação web seguindo rigorosamente o design fornecido no Figma. A aplicação foi projetada para oferecer uma experiência de usuário otimizada na resolução de tela de 1368x768 pixels.  
+Este projeto foi desenvolvido como parte do teste para a posição de Desenvolvedor Front-End na Econverse, o objetivo foi criar uma aplicação web seguindo rigorosamente o design fornecido no Figma.  
+
+A aplicação foi projetada para oferecer uma experiência de usuário otimizada na resolução de tela de 1368x768 pixels.  
 
 ![Demonstrção visual do projeto](https://i.imgur.com/EzWudX8.gif)
 
@@ -8,8 +10,8 @@ Este projeto foi desenvolvido como parte do teste para a posição de Desenvolve
 
 Este projeto apresenta uma landing page que inclui uma vitrine interativa de produtos. Entre as funcionalidades estão:  
 
-• Carrossel de Produtos: Um componente de carrossel que permite a visualização de produtos em uma exibição rotativa e dinâmica. 
-• Modal de Detalhes do Produto: Um modal informativo que oferece uma visualização detalhada do produto ao clicar em um item, proporcionando uma melhor compreensão e interação com as informações apresentadas. 
+• Carrossel de Produtos: Um componente de carrossel que permite a visualização de produtos em uma exibição rotativa e dinâmica.  
+• Modal de Detalhes do Produto: Um modal informativo que oferece uma visualização detalhada do produto ao clicar em um item, proporcionando uma melhor compreensão e interação com as informações apresentadas.   
 
 ## Tecnologias
 
@@ -22,7 +24,7 @@ Este projeto utiliza as seguintes tecnologias:
 
 ## Link direto
 
-A aplicação está disponivel no link https://econverse-1.vercel.app/  
+A aplicação está disponivel no link https://econverse-1.vercel.app/   
 
 ## Instalação 
 
@@ -46,4 +48,5 @@ npm start
 
 ## Considerações 📝
 
-Agradeço à equipe da Econverse pela oportunidade de participar deste desafio. Caso tenha dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou me contatar diretamente 😊
+Agradeço à equipe da Econverse pela oportunidade de participar deste desafio.  
+Caso tenha dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou me contatar diretamente 😊
